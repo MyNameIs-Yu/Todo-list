@@ -1,0 +1,26 @@
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  align-items: center
+}
+
+.auth-button {
+  margin-top: 8px;
+  /* {min-width: 120px;} */
+  width: 175px
+}
+
+.register-button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.register-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;  /* центрируем строку */
+  gap: 12px;  /* отступ между текстом и кнопкой */
+}
